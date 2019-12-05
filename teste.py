@@ -10,3 +10,5 @@ def saca(conta, valor):
 
 def extrato(conta):
     print("Saldo é de {}".format(conta["saldo"]))
+
+#edit pc SAS
