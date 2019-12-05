@@ -1,4 +1,3 @@
-
 class Conta:
 
     #__init__ é o constructor
@@ -19,4 +18,6 @@ class Conta:
     def saca(self, valor):
         self.__saldo -= valor
 
-#edit pc SAS
+    def transfere(self, valor, destino):
+        self.saca(valor)
+        destino.deposita(valor)
